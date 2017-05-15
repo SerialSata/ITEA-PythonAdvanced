@@ -33,5 +33,3 @@ while True:
         print('Input correct value!')
 
     print(current_dict)
-
-
