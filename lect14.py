@@ -72,3 +72,4 @@ class TasksHandler(sax.ContentHandler):
 parser = sax.make_parser()
 parser.setContentHandler(TasksHandler())
 parser.parse(open('tasks.xml', 'rt'))
+
