@@ -52,6 +52,7 @@ for event, node in doc:
 
 from xml import sax
 
+
 class TasksHandler(sax.ContentHandler):
     def __init__(self):
         super().__init__()
@@ -72,4 +73,3 @@ class TasksHandler(sax.ContentHandler):
 parser = sax.make_parser()
 parser.setContentHandler(TasksHandler())
 parser.parse(open('tasks.xml', 'rt'))
-
