@@ -11,6 +11,7 @@ def load():
             res.append(row)
     return res
 
+
 # @profile
 def max_total(r):
     m = 0
@@ -20,4 +21,4 @@ def max_total(r):
     return m
 
 if __name__ == '__main__':
-  print(max_total(load()))
+    print(max_total(load()))
